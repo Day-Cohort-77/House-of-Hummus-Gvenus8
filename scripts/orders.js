@@ -7,7 +7,7 @@
             (ord) => {
                 const ordPrice = ord.entree.price + ord.vegetable.price + ord.side.price
                 
-                  return    `<div>Order #${ord.id} cost ${ordPrice}</div>`
+                  return    `<div>Order #${ord.id} costs $${ordPrice}</div>`
    
 
         })
